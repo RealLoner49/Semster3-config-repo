@@ -28,3 +28,8 @@ spring:
             - Path=/api/employees/**
           filters:
             - StripPrefix=1
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://eureka_server:8761/eureka/
